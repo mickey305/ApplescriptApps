@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>346</string>
+	<key>AMApplicationVersion</key>
+	<string>2.3</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>シェルスクリプトを実行</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>ioreg -c AppleSmartBattery | grep -i Capacity</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>629435EF-71F0-43CC-A81E-A8A2D2B26A45</string>
+				<key>Keywords</key>
+				<array>
+					<string>シェル</string>
+					<string>スクリプト</string>
+					<string>コマンド</string>
+					<string>実行</string>
+					<string>UNIX</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>C0989209-51EF-4D40-B521-8AAD05C90A26</string>
+				<key>UUID</key>
+				<string>52FCF1FB-A0D9-458F-BD8B-3B08E5047A65</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>437.500000:944.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>AppleScript を実行</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		set nil to ""	set char to nil	set inF to f_flag() of me --input flag : default - false	set cmpF to t_flag() of me --compare flag : default - true	set aResList to {} --リスト作成	set aItem to nil			repeat with i from 1 to count of input		set char to char &amp; ((item i of input) as text)	end repeat	--display alert char		set chList to characters of char		repeat with i in chList		set j to contents of i				set judgF to distNumChar(j) of me						if judgF is cmpF and inF is not cmpF then			set inF to t_flag() of me			set aItem to aItem &amp; j					else if judgF is cmpF and inF is cmpF then			set aItem to aItem &amp; j					else if judgF is not cmpF and inF is cmpF then			set the end of aResList to aItem --リストの末尾に追加			set aItem to nil			set inF to f_flag() of me					end if	end repeat		if aItem is not equal to nil then		set the end of aResList to aItem --リストの末尾に追加	end if		--aResList		set char to nil	repeat with i from 1 to count of aResList		set char to char &amp; ((item i of aResList) as text) &amp; return	end repeat	--display alert char	set aResNum to i			set chargepar to aboutNum(100 * (item 2 of aResList) / (item 1 of aResList)) of me as text	set chargepartitle to "充電率" &amp; tab &amp; " : " &amp; tab		set agingpar to aboutNum(100 - (100 * (item 1 of aResList) / (item aResNum of aResList))) of me as text	set agingtitle to "劣化率" &amp; tab &amp; " : " &amp; tab		set parchar to " %"			set chargebox to chargepartitle &amp; chargepar &amp; parchar	set agingbox to agingtitle &amp; agingpar &amp; parchar		display alert chargebox &amp; return &amp; agingbox			return inputend runon distNumChar(txt)		set _char to txt as Unicode text		set cmpChar to {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "."}		ignoring case				repeat with _i in _char			set _j to contents of _i			if _j is not in cmpChar then				return f_flag() of me			end if		end repeat			end ignoring		return t_flag() of meend distNumCharon aboutNum(param)		set sig to param * 100	set sig to round sig rounding to nearest	set param to sig / 100		return paramend aboutNumon f_flag()	return falseend f_flagon t_flag()	return trueend t_flag</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>7BD9F44F-444B-49B3-A0A7-56E0330E116F</string>
+				<key>Keywords</key>
+				<array>
+					<string>実行</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>393B2683-B45F-47AE-998A-BD4BD941FD0F</string>
+				<key>UUID</key>
+				<string>EEC4D1D9-5C83-461A-BC0F-CDC26EE13852</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>437.500000:761.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Japanese.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>E2B9B244-F31C-428A-8E4A-B72352792F0E</key>
+		<dict>
+			<key>from</key>
+			<string>52FCF1FB-A0D9-458F-BD8B-3B08E5047A65 - 52FCF1FB-A0D9-458F-BD8B-3B08E5047A65</string>
+			<key>to</key>
+			<string>EEC4D1D9-5C83-461A-BC0F-CDC26EE13852 - EEC4D1D9-5C83-461A-BC0F-CDC26EE13852</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>
